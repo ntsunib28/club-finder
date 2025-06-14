@@ -38,7 +38,7 @@ const ClubDetail = () => {
       <img
         src={club.image}
         alt={club.name}
-        className="w-full object-cover rounded-lg mb-6"
+        className="w-fit max-w-52 object-cover rounded-lg mb-6"
       />
       <p className="text-lg mb-6">{club.description}</p>
 
